@@ -1,0 +1,9 @@
+[
+ {kernel, [
+  {logger_level, ${LOG_LEVEL}},
+  {logger, [
+    %% Console logger
+    {handler, default, logger_std_h, #{}}
+  ]}
+]},
+"/coap-server/app"].
